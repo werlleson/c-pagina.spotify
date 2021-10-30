@@ -1,0 +1,108 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+ 
+/* Corpo do texto */
+
+body{
+    background-color: rgb(41, 65, 171);
+    background-image: url(https://www-growth.scdn.co/static/home/bursts-tablet.svg);
+    background-size: 120%;
+    background-position: left 40% center;
+    position: relative;
+    bottom: px;
+}
+
+/*Barra de menu e logo*/
+
+header{
+    background: black;
+    width: 100%;
+    height: 79px;
+}
+
+header .container{
+    
+    display: flex;
+    flex-direction: row;                   
+    align-items: center;
+    margin-left: 10px ;    
+    position:relative;                        /*Desloca um pouco as imagens*/
+    bottom:40px;                               /*deslocamento vertical*/
+    top:20px;                                 /*deslocamento vertical*/
+    
+}
+.l-logo{
+    position: relative;
+    left: 88px;
+    
+}
+  
+.n-logo{   
+    color: white;
+    font-family: Circular,spotify-circular,Helvetica,Arial,sans-serif;
+    font-size: 25px;   
+    position: relative;
+    left: 85px; 
+}
+
+a{
+    
+    font-family: Circular,spotify-circular,Helvetica,Arial,sans-serif;
+    font-size: 16px;
+ 
+    margin-left: 30px;
+    position: relative;
+    left: 600px;
+
+    cursor: pointer;
+    text-decoration: underline;
+
+    
+   
+}
+a:hover{
+    color: #0cf05f;
+
+}
+.container a{
+    color: white;
+    text-decoration:none;
+
+}
+.main-panel{
+    color: var(--text-bright-accent,#0cf05f);
+    font-family: 'spotify-circular', Helvetica, Arial, sans-serif;
+    font-size: 92px;
+    text-align: center;
+    padding: 10%; 
+}
+p{
+    font-size: 18px;
+    position: relative;
+    margin-top:90px ;
+    
+}
+.b-button{
+    font-family: 'spotify-circular', Helvetica, sans-serif;
+    font-size: 15px;
+
+    border-radius: 20px;
+    padding: 14px;
+    width: 18%;
+    border: none;
+
+    background-color: #0cf05f;
+    color:rgb(41, 65, 171) ;
+    
+    cursor: pointer;
+    transition: .3s ease all;
+
+}
+.b-button:hover{
+    background-color: rgb(59, 238, 119);
+
+}
+    
